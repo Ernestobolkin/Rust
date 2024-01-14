@@ -23,12 +23,19 @@ fn decrypt(text: &str, shift: i32) -> String {
     caesar_cipher(text, -shift)
 }
 
-// fn main() {
-//     let encrypted = encrypt("HelloWorld", 3);
-//     let decrypted = decrypt(&encrypted, 3);
-//     println!("Encrypted: {}", encrypted); // KhoorZruog
-//     println!("Decrypted: {}", decrypted); // HelloWorld
-// }
+fn encrypt_N_decrypt() {
+    let encrypted = encrypt("HelloWorld", 3);
+    let decrypted = decrypt(&encrypted, 3);
+    println!("Encrypted: {}", encrypted); // KhoorZruog
+    println!("Decrypted: {}", decrypted); // HelloWorld
+}
+
+
+
+
+
+
+
 
 //vars and mutability,
 fn mains() {
@@ -64,3 +71,6 @@ fn main() {
         println!("inside if")
     }
 }
+
+
+//
